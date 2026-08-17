@@ -7,7 +7,6 @@ namespace WorkshopApi.Models
         public DateTime DataRealizacao { get; set; }
         public string Descricao { get; set; } = string.Empty;
 
-        // relação N:N com Colaborador (presença)
         public List<Colaborador> Colaboradores { get; set; } = new();
     }
 }

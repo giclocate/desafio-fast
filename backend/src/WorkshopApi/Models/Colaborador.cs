@@ -4,5 +4,7 @@ namespace WorkshopApi.Models
     {
         public int Id { get; set; }
         public string Nome { get; set; } = string.Empty;
+
+        public List<Workshop> Workshops { get; set; } = new();
     }
 }
